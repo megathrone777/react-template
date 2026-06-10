@@ -1,12 +1,16 @@
 import React from "react";
 
+import { Metadata } from "@/components";
 import { Icon } from "@/ui";
 
 import { iconClass, wrapperClass } from "./TestPage.css";
 
 const TestPage: React.FC = () => (
   <>
-    <title>React app | Test page</title>
+    <Metadata
+      description="qwe"
+      title="React App | Test page"
+    />
 
     <div className={wrapperClass}>
       <Icon
